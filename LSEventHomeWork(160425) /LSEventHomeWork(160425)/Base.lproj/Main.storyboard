@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MagentaSquare.png" translatesAutoresizingMaskIntoConstraints="NO" id="yb5-YP-Jwx">
+                                <rect key="frame" x="44" y="59" width="120" height="120"/>
+                            </imageView>
+                            <imageView tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CyanSquare.png" translatesAutoresizingMaskIntoConstraints="NO" id="aS4-K7-KUD">
+                                <rect key="frame" x="147" y="270" width="120" height="120"/>
+                            </imageView>
+                            <imageView tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="YellowSquare.png" translatesAutoresizingMaskIntoConstraints="NO" id="erz-Be-dY5">
+                                <rect key="frame" x="253" y="484" width="120" height="120"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="cyanView" destination="aS4-K7-KUD" id="07H-J7-ujF"/>
+                        <outlet property="megView" destination="yb5-YP-Jwx" id="SZw-Rb-wfl"/>
+                        <outlet property="yellView" destination="erz-Be-dY5" id="BO8-RN-naS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="429"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CyanSquare.png" width="100" height="100"/>
+        <image name="MagentaSquare.png" width="100" height="100"/>
+        <image name="YellowSquare.png" width="100" height="100"/>
+    </resources>
+</document>
